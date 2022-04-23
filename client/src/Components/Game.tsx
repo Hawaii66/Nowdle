@@ -296,7 +296,7 @@ function Game() {
                 <button onClick={()=>{
                     navigator.share({
                         title:"test",
-                        url:"https://count.hawaiidev.net"
+                        url:GetShareBox()
                     });
                 }}>Test share</button>
                 </Modal.Body>
