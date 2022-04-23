@@ -291,8 +291,7 @@ function Game() {
       className="snapchat-creative-kit-share"
       data-theme="dark"
       data-size="large"
-      data-text="false"
-      data-share-url="www.count.hawaiidev.net"
+      data-share-url="https://www.count.hawaiidev.net"
     ></div>
                 
                 </Modal.Body>
