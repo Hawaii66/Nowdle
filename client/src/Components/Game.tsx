@@ -292,7 +292,7 @@ function Game() {
       data-theme="dark"
       data-size="large"
       data-text="false"
-      data-share-url={GetShareBox()}
+      data-share-url="www.count.hawaiidev.net"
     ></div>
                 
                 </Modal.Body>
