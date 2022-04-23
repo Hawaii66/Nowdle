@@ -1,0 +1,46 @@
+:root {
+    --card-size: calc(min(calc(calc(2rem * 4) * 4), calc(90vw)) / 4 - 10px);
+}
+
+.parent {
+    margin: auto;
+    width: calc(var(--card-size) * 4);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cell {
+    width: calc(var(--card-size) - 2px);
+    height: calc(var(--card-size) - 2px);
+    line-height: var(--card-size);
+    border: 1px black solid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.space-left {
+    margin-left: 1rem;
+}
+
+.space-top {
+    margin-top: 1rem;
+}
+
+.no-border {
+    border: none;
+}
+
+.hover {
+    background-color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
