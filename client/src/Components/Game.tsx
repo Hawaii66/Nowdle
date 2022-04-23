@@ -293,7 +293,12 @@ function Game() {
       data-size="large"
       data-share-url="https://www.count.hawaiidev.net"
     ></div>
-                
+                <button onClick={()=>{
+                    navigator.share({
+                        title:"test",
+                        url:"https://count.hawaiidev.net"
+                    });
+                }}>Test share</button>
                 </Modal.Body>
               
                 <Modal.Footer>
